@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/loi"
+    android:layout_height="match_parent"
+    android:background="#00F8B2"
+    android:backgroundTint="#AE9856"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:columnCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.647"
+        app:rowCount="3">
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_marginRight="10dp"
+            android:height="60dp"
+            android:backgroundTint="@color/white"
+            android:onClick="game"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+
+            ></Button>
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_marginRight="10dp"
+            android:height="60dp"
+            android:backgroundTint="@color/white"
+            android:onClick="game"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+
+            ></Button>
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_marginRight="10dp"
+            android:height="60dp"
+            android:backgroundTint="@color/white"
+            android:onClick="game"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+
+            ></Button>
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_marginRight="10dp"
+            android:height="60dp"
+            android:backgroundTint="@color/white"
+            android:onClick="game"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+
+            ></Button>
+
+        <Button
+            android:id="@+id/b5"
+            android:layout_marginRight="10dp"
+            android:height="60dp"
+            android:backgroundTint="@color/white"
+            android:onClick="game"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+
+            ></Button>
+
+        <Button
+            android:id="@+id/b6"
+            android:layout_marginRight="10dp"
+            android:height="60dp"
+            android:backgroundTint="@color/white"
+            android:onClick="game"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+
+            ></Button>
+
+        <Button
+            android:id="@+id/b7"
+            android:layout_marginRight="10dp"
+            android:height="60dp"
+            android:backgroundTint="@color/white"
+            android:onClick="game"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+
+            ></Button>
+
+        <Button
+            android:id="@+id/b8"
+            android:layout_marginRight="10dp"
+            android:height="60dp"
+            android:backgroundTint="@color/white"
+            android:onClick="game"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+
+            ></Button>
+
+        <Button
+            android:id="@+id/b9"
+            android:layout_marginRight="10dp"
+            android:height="60dp"
+            android:backgroundTint="@color/white"
+            android:onClick="game"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+
+            ></Button>
+
+
+    </androidx.gridlayout.widget.GridLayout>
+
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/baseline_replay_circle_filled_24"
+        android:onClick="resets"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.897" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="200dp"
+        android:layout_height="178dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        android:id="@+id/loti"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.305"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+
+        app:lottie_rawRes="@raw/lot"></com.airbnb.lottie.LottieAnimationView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        app:cardBackgroundColor="@color/white"
+
+        app:cardElevation="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+
+                android:layout_height="60dp"
+                android:background="@color/white"
+                android:fontFamily="@font/aclonica"
+                android:text="Alishron"
+                android:textColor="#090808"
+                android:textSize="48sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/aclonica"
+                android:text="GameWays"
+                android:textColor="#090808"
+                android:textSize="48sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
